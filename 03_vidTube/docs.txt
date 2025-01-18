@@ -1,0 +1,22 @@
+step1 : go to app.js and make an app using express() and export this
+
+step2 : now go to index.js and import that app from app.js
+      i  app.listen etc.
+      ii import dotenv from dotenv
+step3 : go to pachage.json and write start command for starting application        
+
+step4 : create .eve and .env.sample files
+    i    write port on .env
+    ii   install dotenv which : Dotenv is a zero-dependency module that loads       environment variables from a .env file into process.env
+
+step 5 : install cors package which : CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
+# use middlewares in index.js which are cors middleware alongwith express middlewares
+# go to db/index.js and try to connect mongoDB using mongoose and MongoDB Atlas
+# now we are going to utils and create asyncHandler.js witch has a asyncHandler to handle metods like get, post, put, delete etc asyncronously
+# now go to utils and create a new file named ApiResponse.js to get standard skeleton for api response
+# now go to utils and create a new file named ApiError.js to handle Erors and make a standard skeleton for api errors
+        *****104 Healthcheck routes and testing with postman ******
+# Healthcheck is a professional way to check the health of routes before send it to production
+# For this purpose goto controllers and make a file named healthCheck.contollers.js which will 
+# now go to the routes folder and make a file named healthcheck.router.js to make a route for healthcheck
