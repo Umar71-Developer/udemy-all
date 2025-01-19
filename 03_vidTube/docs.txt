@@ -32,3 +32,20 @@ step 5 : install cors package which : CORS is a node.js package for providing a 
 # now we want to create access token and refresh token to check whether the user is logged in or not 
 # for this purpose install a package named jwt token
 # now go to userModel and generate refresh/access token
+    *****107 How to handle files in MERN application*****
+# The scenerio is that when we want upload our files like photos or media on our sever we send them to that folder on our sever
+# But most of the cases we send these files 3rd party apps like cloudinary and many more.
+# But now we will use cloudinary in this section or project
+# There is no file system in express to handle cookies 
+# For this purpose we will use cookie-parser
+# Now firstly we install cookie-parser package in our project
+# There is no option in express to handle  the images 
+# For this purpose another package is available named multer
+# now we will install this package to handling the multiple|sigle files
+# To use multer we create a file in middlewares named multer.middlewares.js
+# Now go to the cloudinary site and install cloudinary
+# Now copy cloudinayName, cloudinarySecret, cloudinaryApikey and paste these in .env file
+# Now perform the method from cloudinary to handle files 
+# In this snippet of code import fs from express
+# fs is specially here to delete that file while error catch party
+#     
