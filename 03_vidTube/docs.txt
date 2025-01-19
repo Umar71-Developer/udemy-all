@@ -22,3 +22,13 @@ step 5 : install cors package which : CORS is a node.js package for providing a 
 # now go to the routes folder and make a file named healthcheck.router.js to make a route for healthcheck
 ********105 A guide to build models in MongoDB with aggregation plugin*******
 # first go to models folder and create models in it
+    ******** 106 Hooks and methods in mongoose with JWT *************
+# first of all go to mongoose site and search middwares and read it
+# search methods also and read it
+# go to models/userModel and lets handle the things 
+# install npm package bcrypt for password encryption
+# go to models/userModel and import bcrypt and inject it on user password
+# now on remainig in that file use methods to compare passwords 
+# now we want to create access token and refresh token to check whether the user is logged in or not 
+# for this purpose install a package named jwt token
+# now go to userModel and generate refresh/access token
